@@ -33,8 +33,10 @@
                 class="form__input"
                 type="text"
                 name="name"
-                pattern=""
+                pattern="[А-ЯЁ][а-яё]+(-[А-ЯЁ][а-яё]+)*"
                 placeholder="Имя"
+                minlength="2"
+                maxlength="20"
                 required
               />
             </div>
@@ -57,7 +59,7 @@
                 type="text"
                 name="tel"
                 placeholder="Телефон"
-                pattern=""
+                pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$"
                 minlength=""
                 maxlength="18"
                 required
@@ -69,7 +71,7 @@
                 class="form__input"
                 type="text"
                 name="url"
-                pattern=""
+                pattern="(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?"
                 placeholder="Ваш сайт"
                 required
               />

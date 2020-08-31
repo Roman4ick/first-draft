@@ -1,4 +1,4 @@
-example programm(R) version v0.0.6 31.08.2020
+example programm(R) version v0.0.6.1 31.08.2020
 
 # first-draft
 ---------------------------------------------
